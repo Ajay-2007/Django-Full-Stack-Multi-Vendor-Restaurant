@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'category',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -71,6 +72,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'online_restaurant_main.wsgi.application'
+
+AUTH_USER_MDOEL = 'accounts.Account'
 
 
 # Database
